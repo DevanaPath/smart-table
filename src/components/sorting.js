@@ -16,8 +16,8 @@ export function initSorting(columns) {
                 }
             });
         } else {
-            columns.forEach(column => {                        
-                if (column.dataset.value !== 'none') {        
+            columns.forEach(column => {
+                if (column.dataset.value !== 'none') {
                     field = column.dataset.field;            
                     order = column.dataset.value;            
                 }
